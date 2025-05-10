@@ -1381,3 +1381,32 @@ input.mail_bt::placeholder {
 
 /* copyright section end */
 
+/* Universal Carousel Controls for all sliders ending with '_main_slider' */
+
+[id$="_main_slider"] .carousel-control-prev,
+[id$="_main_slider"] .carousel-control-next {
+  position: absolute;
+  top: 105%;
+  width: 55px;
+  height: 55px;
+  background-color: #30302e;
+  opacity: 1;
+  font-size: 30px;
+  color: #fff;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+[id$="_main_slider"] .carousel-control-prev {
+  left: 40px;
+}
+
+[id$="_main_slider"] .carousel-control-next {
+  right: 40px;
+}
+
+[id$="_main_slider"] .carousel-control-prev:hover,
+[id$="_main_slider"] .carousel-control-next:hover {
+  background-color: #f26522;
+  color: #fff;
+}

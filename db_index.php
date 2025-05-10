@@ -19,6 +19,32 @@
     ?>
 
 <?php 
+    require_once './categories/Dry.php'
+    ?>
+
+<?php 
+    require_once './categories/Nut-Based.php'
+    ?>
+
+<?php 
+    require_once './categories/Modern.php'
+    ?>
+    <?php 
+    require_once './categories/Halwa.php'
+    ?>
+        <?php 
+    require_once './categories/Flour-Based.php'
+    ?>
+            <?php 
+    require_once './categories/Festival.php'
+    ?>
+                <?php 
+    require_once './categories/Syrupy.php'
+    ?>
+
+
+
+<?php 
     require_once './utils/footer.php'
     ?>
 </body>
