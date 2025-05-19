@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Admin-</title>
+
+
+    <link rel="shortcut icon" href="assets/images/favicon.svg" /> 
+    <link rel="shortcut icon" href="assets/images/favicon.svg" /> -->
+    <!-- *************
+			************ CSS Files *************
+		************* -->
+    <link rel="stylesheet" href="assets/css/animate.css" />
+    <link rel="stylesheet" href="assets/fonts/bootstrap/bootstrap-icons.css" />
+    <link rel="stylesheet" href="assets/css/main.min.css" />
+
+    <!-- *************
+			************ Vendor Css Files *************
+		************ -->
+
+    <!-- Scrollbar CSS -->
+    <link rel="stylesheet" href="assets/vendor/overlay-scroll/OverlayScrollbars.min.css" />
+
+
+    <!-- Given below is my code for styling  -->
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Admin: Upload Product</title>
+    <!-- Bootstrap CSS -->
+  </head>
+
+  <body>
+    <!-- Page wrapper start -->
+    <div class="page-wrapper">
+
+      <!-- Main container start -->
+      <div class="main-container">
+
+        <!-- Sidebar wrapper start -->
+        <nav id="sidebar" class="sidebar-wrapper">
+
+          <!-- App brand starts -->
+          <div class="app-brand px-3 py-3 d-flex align-items-center">
+            <a href="index.html">
+              <img src="assets/images/logo.svg" class="logo"
+                alt="Admin Dashboard with real-time analytics and user management" />
+            </a>
+          </div>
+          <!-- App brand ends -->
+
+          <!-- Sidebar profile starts -->
+          <div class="sidebar-user-profile">
+            <img src="assets/images/user5.png" class="profile-thumb rounded-circle p-1 d-lg-flex d-none"
+              alt="Admin Dashboard with real-time analytics and user management" />
+            <h6 class="profile-name lh-lg mt-2 text-truncate">Michelle Max</h6>
+            <ul class="profile-actions d-flex m-0 p-0">
+              <li>
+                <a href="javascript:void(0)">
+                  <i class="bi bi-facebook fs-5"></i>
+                  <span class="count-label"></span>
+                </a>
+              </li>
+              <li>
+                <a href="javascript:void(0)">
+                  <i class="bi bi-github fs-5"></i>
+                </a>
+              </li>
+              <li>
+                <a href="javascript:void(0)">
+                  <i class="bi bi-google fs-5"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <!-- Sidebar profile ends -->
+
+          <!-- Sidebar menu starts -->
+          <div class="sidebarMenuScroll">
+            <ul class="sidebar-menu">
+              <li class="active current-page">
+                <a href="index.html">
+                  <i class="bi bi-tv"></i>
+                  <span class="menu-text">Dashboard</span>
+                </a>
+              </li>
+              <li>
+                <a href="upload.html">
+                  <i class="bi bi-radar"></i>
+                  <span class="menu-text">Upload</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <!-- Sidebar menu ends -->
+
+        </nav>
+        <!-- Sidebar wrapper end -->
+
+        <!-- App container starts -->
+        <div class="app-container">
+
+          <!-- App header starts -->
+          <div class="app-header d-flex align-items-center">
+
+            <!-- Toggle buttons start -->
+            <div class="d-flex">
+              <button type="button" class="btn btn-dark me-2 toggle-sidebar" id="toggle-sidebar">
+                <i class="bi bi-chevron-left"></i>
+              </button>
+              <button type="button" class="btn btn-outline-dark me-2 pin-sidebar" id="pin-sidebar">
+                <i class="bi bi-chevron-left"></i>
+              </button>
+            </div>
+            <!-- Toggle buttons end -->
+
+            <!-- App brand sm start -->
+            <div class="app-brand-sm d-lg-none d-sm-block">
+              <a href="index.html">
+                <img src="assets/images/logo-sm.svg" class="logo"
+                  alt="Admin Dashboard with real-time analytics and user management">
+              </a>
+            </div>
+            <!-- App brand sm end -->
+
+            <!-- App header actions start -->
+            <div class="header-actions">
+              <div class="d-lg-block d-none">
+
+                <!-- Search container start -->
+                <div class="input-group">
+                  <input type="text" class="form-control" id="search" placeholder="Search" />
+                  <button class="btn btn-outline-dark" type="button">
+                    <i class="bi bi-search"></i>
+                  </button>
+                </div>
+                <!-- Search container end -->
+
+              </div>
+              <!-- Header actions starts -->
+              <div class="d-lg-flex d-none">
+                <div class="dropdown ms-3">
+                  <a class="dropdown-toggle action-icon" href="#!" role="button" data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                    <i class="bi bi-grid lh-1"></i>
+                  </a>
+                  <div class="dropdown-menu dropdown-menu-end shadow">
+                    <h6 class="fw-semibold px-3 mt-3">Quick Links</h6>
+                    <!-- Row start -->
+                    <div class="d-flex gap-2 m-3">
+                      <a href="javascript:void(0)" class="g-col-4 p-2 border rounded-2">
+                        <img src="assets/images/brand-behance.svg" class="img-2x" alt="Admin Themes" />
+                      </a>
+                      <a href="javascript:void(0)" class="g-col-4 p-2 border rounded-2">
+                        <img src="assets/images/brand-slack.svg" class="img-2x" alt="Admin Templates" />
+                      </a>
+                      <a href="javascript:void(0)" class="g-col-4 p-2 border rounded-2">
+                        <img src="assets/images/brand-google.svg" class="img-2x" alt="Admin Panels" />
+                      </a>
+                      <a href="javascript:void(0)" class="g-col-4 p-2 border rounded-2">
+                        <img src="assets/images/brand-pinterest.svg" class="img-2x" alt="Admin Templates" />
+                      </a>
+                      <a href="javascript:void(0)" class="g-col-4 p-2 border rounded-2">
+                        <img src="assets/images/brand-dribbble.svg" class="img-2x" alt="Admin Dashboard" />
+                      </a>
+                    </div>
+                    <!-- Row end -->
+                  </div>
+                </div>
+                <div class="dropdown ms-3">
+                  <a class="dropdown-toggle action-icon" href="#!" role="button" data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                    <i class="bi bi-bell lh-1"></i>
+                    <span class="count-label bg-danger animated infinite swing">7</span>
+                  </a>
+                  <div class="dropdown-menu dropdown-menu-end dropdown-menu-md shadow-sm">
+                    <h5 class="fw-semibold px-3 py-2 m-0">Notifications</h5>
+                    <a href="javascript:void(0)" class="d-flex align-items-start gap-3 p-3 dropdown-data">
+                      <img src="assets/images/user.png" class="img-3x rounded-3" alt="Admin Themes">
+                      <div class="m-0">
+                        <h6 class="mb-1 fw-semibold">Zaaida el-Abdul</h6>
+                        <p class="mb-1">
+                          Membership has been ended.
+                        </p>
+                        <p class="small m-0 opacity-50">
+                          Today, 07:30pm
+                        </p>
+                      </div>
+                    </a>
+                    <a href="javascript:void(0)" class="d-flex align-items-start gap-3 p-3 dropdown-data">
+                      <img src="assets/images/user2.png" class="img-3x rounded-3" alt="Admin Theme">
+                      <div class="m-0">
+                        <h6 class="mb-1 fw-semibold">Saara al-Faris</h6>
+                        <p class="mb-1">
+                          Congratulate, James for new job.
+                        </p>
+                        <p class="small m-0 opacity-50">
+                          Today, 08:00pm
+                        </p>
+                      </div>
+                    </a>
+                    <a href="javascript:void(0)" class="d-flex align-items-start gap-3 p-3 dropdown-data">
+                      <img src="assets/images/user1.png" class="img-3x rounded-3" alt="Admin Theme">
+                      <div class="m-0">
+                        <h6 class="mb-1 fw-semibold">Razeena al-Sahli</h6>
+                        <p class="mb-1">
+                          Zaahira added new schedule release.
+                        </p>
+                        <p class="small m-0 opacity-50">
+                          Today, 09:30pm
+                        </p>
+                      </div>
+                    </a>
+                    <div class="d-grid p-3 border-top">
+                      <a href="javascript:void(0)" class="btn btn-outline-primary">View all</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Header actions ends -->
+              <div class="dropdown ms-3">
+                <a id="userSettings" class="dropdown-toggle d-flex py-2 align-items-center text-decoration-none"
+                  href="#!" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  <span class="d-none d-md-block me-2">admin@info.com</span>
+                  <img src="assets/images/user5.png" class="rounded-5 img-3x  border border-primary p-1"
+                    alt="Admin Dashboard with real-time analytics and user management" />
+                </a>
+                <div class="dropdown-menu dropdown-menu-end shadow">
+                  <div class="p-2 mb-2 text-center border-bottom border-light">
+                    <h6 class="mb-1">Michelle Max
+                    </h6>
+                    <p class="m-0 text-muted small">Executive Director</p>
+                  </div>
+                  <a class="dropdown-item d-flex align-items-center" href="profile.html">
+                    <div class="icon-box sm rounded-5 bg-primary-subtle me-2">
+                      <i class="bi bi-person"></i>
+                    </div> Profile
+                  </a>
+                  <a class="dropdown-item d-flex align-items-center" href="settings.html">
+                    <div class="icon-box sm rounded-5 bg-danger-subtle me-2">
+                      <i class="bi bi-gear"></i>
+                    </div>
+                    Account Settings
+                  </a>
+                  <a class="dropdown-item d-flex align-items-center" href="login.html">
+                    <div class="icon-box sm rounded-5 bg-success-subtle me-2">
+                      <i class="bi bi-escape"></i>
+                    </div>Logout
+                  </a>
+                </div>
+              </div>
+            </div>
+            <!-- App header actions end -->
+
+          </div>
+          <!-- App header ends -->
+
+          <!-- App hero header starts -->
+          <div class="app-hero-header">
+
+            <!-- Page Title start -->
+            <div class="d-flex gap-3">
+              <img src="assets/images/dashboard2.svg" class="img-4x" alt="Logistics Dashboard" />
+              <div class="m-0">
+                <h5 class="fw-light">Hello Bhushan Kumar,</h5>
+                <h3 class="fw-light">
+                  <span>Have a good day :)</span>
+                </h3>
+              </div>
+            </div>
+            <!-- Page Title end -->
+
+            <!-- Header graphs start -->
+            <div class="ms-auto">
+              <div class="d-lg-flex d-none gap-4">
+                <div class="d-flex align-items-center">
+                  <div id="yearSales" class="me-3"></div>
+                  <div class="m-0">
+                    <div class="d-flex align-items-center">
+                      <div class="fs-4 fw-bold lh-1">$860k</div>
+                      <div class="ms-1 text-primary d-flex align-items-center lh-1">
+                        <i class="bi bi-arrow-up-right fs-5"></i>
+                      </div>
+                    </div>
+                    <small>Yearly Sales</small>
+                  </div>
+                </div>
+                <div class="d-flex align-items-center">
+                  <div id="yearRevenue" class="me-3"></div>
+                  <div class="m-0">
+                    <div class="d-flex align-items-center">
+                      <div class="fs-4 fw-bold lh-1">$990k</div>
+                      <div class="ms-1 text-primary d-flex align-items-center lh-1">
+                        <i class="bi bi-arrow-up-right fs-5"></i>
+                      </div>
+                    </div>
+                    <small>Overall Revenue</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Header graphs end -->
+
+          </div>
+          <!-- App Hero header ends -->
+
+          <!-- App body starts -->
+          <div class="app-body">
+
+
+            <div class="card upload-card">
+                <div class="card-header text-center">
+                  <h4>Upload New Product</h4>
+                </div>
+                <div class="card-body">
+                  <form action="../upload.php" method="post" enctype="multipart/form-data">
+                    <!-- Product Name -->
+                    <div class="form-group">
+                      <label for="productName" class="form-label">Product Name</label>
+                      <input 
+                        type="text" 
+                        class="form-control" 
+                        id="productName" 
+                        name="product_name" 
+                        placeholder="Enter product name" 
+                        required>
+                    </div>
+            
+                    <!-- Category -->
+                    <div class="form-group">
+                      <label for="category" class="form-label">Category</label>
+                      <select 
+                        class="form-control" 
+                        id="category" 
+                        name="category" 
+                        required>
+                        <option value="">-- Select Category --</option>
+                        <option>Milk-Based</option>
+                        <option>Fried</option>
+                        <option>Nut-Based</option>
+                        <option>Flour-Based</option>
+                        <option>Halwa</option>
+                        <option>Dry</option>
+                        <option>Syrupy</option>
+                        <option>Festival</option>
+                        <option>Modern</option>
+                      </select>
+                    </div>
+            
+                    <!-- Price -->
+                    <div class="form-group">
+                      <label for="price" class="form-label">Price (PKR)</label>
+                      <input 
+                        type="number" 
+                        step="0.01" 
+                        class="form-control" 
+                        id="price" 
+                        name="price" 
+                        placeholder="e.g. 150.00" 
+                        required>
+                    </div>
+            
+                    <!-- Description -->
+                    <div class="form-group">
+                      <label for="description" class="form-label">Description</label>
+                      <textarea 
+                        class="form-control" 
+                        id="description" 
+                        name="description" 
+                        rows="4" 
+                        placeholder="Enter a brief product description" 
+                        required></textarea>
+                        
+                    </div>
+            
+                    <!-- Image Upload -->
+                    <div class="form-group">
+                      <label for="image" class="form-label">Product Image</label>
+                      <div class="custom-file">
+                        <input 
+                          type="file" 
+                          class="custom-file-input" 
+                          id="image" 
+                          name="image" 
+                          accept="image/*" 
+                          required>
+                        <label class="custom-file-label" for="image">Choose image...</label>
+                      </div>
+                    </div>
+            
+                    <!-- Submit -->
+                    <button 
+                      type="submit" 
+                      class="btn btn-dark btn-block">
+                      Upload Product
+                    </button>
+                  </form>
+                </div>
+              </div>
+
+
+            <!-- Row start -->
+          </div>
+    <!-- Page wrapper end -->
+
+    <!-- *************
+			************ JavaScript Files *************
+		************* -->
+    <!-- Required jQuery first, then Bootstrap Bundle JS -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+
+    <!-- *************
+			************ Vendor Js Files *************
+		************* -->
+
+    <!-- Overlay Scroll JS -->
+    <script src="assets/vendor/overlay-scroll/jquery.overlayScrollbars.min.js"></script>
+    <script src="assets/vendor/overlay-scroll/custom-scrollbar.js"></script>
+
+    <!-- Apex Charts -->
+    <script src="assets/vendor/apex/apexcharts.min.js"></script>
+    <script src="assets/vendor/apex/custom/graphs/custom-sparkline.js"></script>
+    <script src="assets/vendor/apex/custom/analytics/delivery.js"></script>
+    <script src="assets/vendor/apex/custom/analytics/sparkline.js"></script>
+    <script src="assets/vendor/apex/custom/analytics/income.js"></script>
+    <script src="assets/vendor/apex/custom/analytics/sparkline2.js"></script>
+
+    <!-- Custom JS files -->
+    <script src="assets/js/custom.js"></script>
+
+
+
+
+
+                  <!-- Bootstrap JS & dependencies -->
+                  <script 
+                  src="https://code.jquery.com/jquery-3.5.1.slim.min.js" 
+                  integrity="sha384‑DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" 
+                  crossorigin="anonymous"></script>
+                <script 
+                  src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js" 
+                  integrity="sha384‑kzZEVN+m1aFIyMdO6Sv26VP0KWI761jBO7gR+6Y9GtGqCBsmI3m7EjlI5Z4lqJ4g" 
+                  crossorigin="anonymous"></script>
+                <script>
+                  // Show selected filename in custom-file input
+                  document.querySelector('.custom-file-input').addEventListener('change', function(e) {
+                    var fileName = e.target.files[0].name;
+                    e.target.nextElementSibling.innerText = fileName;
+                  });
+                </script>
+  </body>
+
+</html>

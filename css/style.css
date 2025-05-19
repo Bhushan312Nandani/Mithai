@@ -1,4 +1,4 @@
---------------------------------------------------------------------- File Name: style.css ---------------------------------------------------------------------*/
+
 /*--------------------------------------------------------------------- import Files ---------------------------------------------------------------------*/
 
 @import url(animate.min.css);
@@ -214,7 +214,7 @@ button {
 .banner_bg_main {
     width: 100%;
     float: left;
-    background-image: url(../images/banner-bg.png);
+    background-image: url(../images/none.webp);
     height: auto;
     background-size: 100%;
     background-repeat: no-repeat;
@@ -447,16 +447,8 @@ button {
     padding-left: 10px;
 }
 
-
 /* flage css start */
 
-.lang_box {
-    display: flex;
-    float: right;
-    background: #fff;
-    border-radius: 5px;
-    margin-right: 20px;
-}
 
 .nav-link {
     display: block;
@@ -505,7 +497,7 @@ a:hover {
     color: #ffffff;
     background-color: #252525;
     text-align: center;
-    padding: 10px 0px;
+    padding: 5px 0px;
     border-radius: 5px;
     text-transform: uppercase;
     font-weight: bold;
@@ -515,9 +507,6 @@ a:hover {
     background-color: #f26522;
     color: #ffffff;
 }
-.fashion_section {
-    margin-bottom: 100px; /* or more if needed */
-  }
 #my_slider a.carousel-control-next {
     right: 0px;
     top: 20px;
@@ -555,7 +544,7 @@ a:hover {
 .fashion_section {
     width: 100%;
     float: left;
-    padding-bottom: 150px;
+    margin-bottom: 75px;
 }
 
 .fashion_taital {
@@ -720,33 +709,51 @@ a:hover {
 /* electronic section end */
 
 
-/* jewellery section start */
 
-.jewellery_section {
-    width: 100%;
-    float: left;
-    padding-bottom: 50px;
-}
 
-.jewellery_img {
+
+#Milk-Based_main_slider a.carousel-control-next {
+    right: 615px;
+    top: 105%;
+  }
+  #Milk-Based_main_slider a.carousel-control-prev {
+    left: 615px;
+    top: 105%;
+  }
+  #Milk-Based_main_slider .carousel-control-next,
+  #Milk-Based-Based_main_slider .carousel-control-prev {
+    width: 55px;
+    height: 55px;
+    background-color: #30302e;
+    opacity: 1;
+    font-size: 30px;
+    color: #ffffff;
+  }
+  /* hover states */
+  #Milk-Based_main_slider .carousel-control-next:hover,
+  #Milk-Based-Based_main_slider .carousel-control-prev:hover {
+    background-color: #f26522;
+  }
+
+.Milk-Based_img {
     width: 100%;
     text-align: center;
     margin: 50px 0px;
     min-height: 293px;
 }
 
-#jewellery_main_slider a.carousel-control-next {
+#Milk-Based_main_slider a.carousel-control-next {
     right: 615px;
-    top: 75%;
+    top: 105%;
 }
 
-#jewellery_main_slider a.carousel-control-prev {
+#Milk-Based_main_slider a.carousel-control-prev {
     left: 615px;
-    top: 75%;
+    top: 105%;
 }
 
-#jewellery_main_slider .carousel-control-next,
-#jewellery_main_slider .carousel-control-prev {
+#Milk-Based_main_slider .carousel-control-next,
+#Milk-Based_main_slider .carousel-control-prev {
     width: 55px;
     height: 55px;
     background-color: #30302e;
@@ -755,16 +762,380 @@ a:hover {
     color: #ffffff;
 }
 
-#jewellery_main_slider .carousel-control-next:focus,
-#jewellery_main_slider .carousel-control-next:hover,
-#jewellery_main_slider .carousel-control-prev:focus,
-#jewellery_main_slider .carousel-control-prev:hover {
+#Milk-Based_main_slider .carousel-control-next:focus,
+#Milk-Based_main_slider .carousel-control-next:hover,
+#Milk-Based_main_slider .carousel-control-prev:focus,
+#Milk-Based_main_slider .carousel-control-prev:hover {
     color: #fff;
     background-color: #f26522;
 }
 
 
-/* loader bar css start */
+/* Milk-Based section end */
+
+
+
+
+
+
+
+.Fried_img {
+    width: 100%;
+    text-align: center;
+    margin: 50px 0px;
+    min-height: 293px;
+}
+
+#Fried_main_slider a.carousel-control-next {
+    right: 615px;
+    top: 105%;
+}
+
+#Fried_main_slider a.carousel-control-prev {
+    left: 615px;
+    top: 105%;
+}
+
+#Fried_main_slider .carousel-control-next,
+#Fried_main_slider .carousel-control-prev {
+    width: 55px;
+    height: 55px;
+    background-color: #30302e;
+    opacity: 1;
+    font-size: 30px;
+    color: #ffffff;
+}
+
+#Fried_main_slider .carousel-control-next:focus,
+#Fried_main_slider .carousel-control-next:hover,
+#Fried_main_slider .carousel-control-prev:focus,
+#Fried_main_slider .carousel-control-prev:hover {
+    color: #fff;
+    background-color: #f26522;
+}
+
+
+/* Fried section end */
+
+
+
+
+
+.Nut-Based_img {
+    width: 100%;
+    text-align: center;
+    margin: 50px 0px;
+    min-height: 293px;
+}
+
+#Nut-Based_main_slider a.carousel-control-next {
+    right: 615px;
+    top: 105%;
+}
+
+#Nut-Based_main_slider a.carousel-control-prev {
+    left: 615px;
+    top: 105%;
+}
+
+#Nut-Based_main_slider .carousel-control-next,
+#Nut-Based_main_slider .carousel-control-prev {
+    width: 55px;
+    height: 55px;
+    background-color: #30302e;
+    opacity: 1;
+    font-size: 30px;
+    color: #ffffff;
+}
+
+#Nut-Based_main_slider .carousel-control-next:focus,
+#Nut-Based_main_slider .carousel-control-next:hover,
+#Nut-Based_main_slider .carousel-control-prev:focus,
+#Nut-Based_main_slider .carousel-control-prev:hover {
+    color: #fff;
+    background-color: #f26522;
+}
+
+
+/* Nut-Based section end */
+
+
+
+
+
+
+
+.Flour-Based_img {
+    width: 100%;
+    text-align: center;
+    margin: 50px 0px;
+    min-height: 293px;
+}
+
+#Flour-Based_main_slider a.carousel-control-next {
+    right: 615px;
+    top: 105%;
+}
+
+#Flour-Based_main_slider a.carousel-control-prev {
+    left: 615px;
+    top: 105%;
+}
+
+#Flour-Based_main_slider .carousel-control-next,
+#Flour-Based_main_slider .carousel-control-prev {
+    width: 55px;
+    height: 55px;
+    background-color: #30302e;
+    opacity: 1;
+    font-size: 30px;
+    color: #ffffff;
+}
+
+#Flour-Based_main_slider .carousel-control-next:focus,
+#Flour-Based_main_slider .carousel-control-next:hover,
+#Flour-Based_main_slider .carousel-control-prev:focus,
+#Flour-Based_main_slider .carousel-control-prev:hover {
+    color: #fff;
+    background-color: #f26522;
+}
+
+
+/* Flour-Based section end */
+
+
+
+
+
+
+
+
+
+.Halwa_img {
+    width: 100%;
+    text-align: center;
+    margin: 50px 0px;
+    min-height: 293px;
+}
+
+#Halwa_main_slider a.carousel-control-next {
+    right: 615px;
+    top: 105%;
+}
+
+#Halwa_main_slider a.carousel-control-prev {
+    left: 615px;
+    top: 105%;
+}
+
+#Halwa_main_slider .carousel-control-next,
+#Halwa_main_slider .carousel-control-prev {
+    width: 55px;
+    height: 55px;
+    background-color: #30302e;
+    opacity: 1;
+    font-size: 30px;
+    color: #ffffff;
+}
+
+#Halwa_main_slider .carousel-control-next:focus,
+#Halwa_main_slider .carousel-control-next:hover,
+#Halwa_main_slider .carousel-control-prev:focus,
+#Halwa_main_slider .carousel-control-prev:hover {
+    color: #fff;
+    background-color: #f26522;
+}
+
+
+/* Halwa section end */
+
+
+
+
+
+
+
+
+
+
+
+.Dry_img {
+    width: 100%;
+    text-align: center;
+    margin: 50px 0px;
+    min-height: 293px;
+}
+
+#Dry_main_slider a.carousel-control-next {
+    right: 615px;
+    top: 105%;
+}
+
+#Dry_main_slider a.carousel-control-prev {
+    left: 615px;
+    top: 105%;
+}
+
+#Dry_main_slider .carousel-control-next,
+#Dry_main_slider .carousel-control-prev {
+    width: 55px;
+    height: 55px;
+    background-color: #30302e;
+    opacity: 1;
+    font-size: 30px;
+    color: #ffffff;
+}
+
+#Dry_main_slider .carousel-control-next:focus,
+#Dry_main_slider .carousel-control-next:hover,
+#Dry_main_slider .carousel-control-prev:focus,
+#Dry_main_slider .carousel-control-prev:hover {
+    color: #fff;
+    background-color: #f26522;
+}
+
+
+/* Dry section end */
+
+
+
+.Syrupy_img {
+    width: 100%;
+    text-align: center;
+    margin: 50px 0px;
+    min-height: 293px;
+}
+
+#Syrupy_main_slider a.carousel-control-next {
+    right: 615px;
+    top: 105%;
+}
+
+#Syrupy_main_slider a.carousel-control-prev {
+    left: 615px;
+    top: 105%;
+}
+
+#Syrupy_main_slider .carousel-control-next,
+#Syrupy_main_slider .carousel-control-prev {
+    width: 55px;
+    height: 55px;
+    background-color: #30302e;
+    opacity: 1;
+    font-size: 30px;
+    color: #ffffff;
+}
+
+#Syrupy_main_slider .carousel-control-next:focus,
+#Syrupy_main_slider .carousel-control-next:hover,
+#Syrupy_main_slider .carousel-control-prev:focus,
+#Syrupy_main_slider .carousel-control-prev:hover {
+    color: #fff;
+    background-color: #f26522;
+}
+
+
+/* Syrupy section end */
+
+
+
+
+
+
+.Festival_img {
+    width: 100%;
+    text-align: center;
+    margin: 50px 0px;
+    min-height: 293px;
+}
+
+#Festival_main_slider a.carousel-control-next {
+    right: 615px;
+    top: 105%;
+}
+
+#Festival_main_slider a.carousel-control-prev {
+    left: 615px;
+    top: 105%;
+}
+
+#Festival_main_slider .carousel-control-next,
+#Festival_main_slider .carousel-control-prev {
+    width: 55px;
+    height: 55px;
+    background-color: #30302e;
+    opacity: 1;
+    font-size: 30px;
+    color: #ffffff;
+}
+
+#Festival_main_slider .carousel-control-next:focus,
+#Festival_main_slider .carousel-control-next:hover,
+#Festival_main_slider .carousel-control-prev:focus,
+#Festival_main_slider .carousel-control-prev:hover {
+    color: #fff;
+    background-color: #f26522;
+}
+
+
+/* Festival section end */
+
+
+
+
+
+
+
+
+
+.Modern_img {
+    width: 100%;
+    text-align: center;
+    margin: 50px 0px;
+    min-height: 293px;
+}
+
+#Modern_main_slider a.carousel-control-next {
+    right: 615px;
+    top: 105%;
+}
+
+#Modern_main_slider a.carousel-control-prev {
+    left: 615px;
+    top: 105%;
+}
+
+#Modern_main_slider .carousel-control-next,
+#Modern_main_slider .carousel-control-prev {
+    width: 55px;
+    height: 55px;
+    background-color: #30302e;
+    opacity: 1;
+    font-size: 30px;
+    color: #ffffff;
+}
+
+#Modern_main_slider .carousel-control-next:focus,
+#Modern_main_slider .carousel-control-next:hover,
+#Modern_main_slider .carousel-control-prev:focus,
+#Modern_main_slider .carousel-control-prev:hover {
+    color: #fff;
+    background-color: #f26522;
+}
+
+
+/* Modern section end */
+
+
+
+
+
+
+
+
+
+
+
 
 .loader_main {
     width: 100%;
@@ -984,3 +1355,45 @@ input.mail_bt::placeholder {
 
 
 /* copyright section end */
+
+/* Universal Carousel Controls for all sliders ending with '_main_slider' */
+
+[id$="_main_slider"] .carousel-control-prev,
+[id$="_main_slider"] .carousel-control-next {
+  position: absolute;
+  top: 105%;
+  width: 55px;
+  height: 55px;
+  background-color: #30302e;
+  opacity: 1;
+  font-size: 30px;
+  color: #fff;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+[id$="_main_slider"] .carousel-control-prev {
+  left: 40px;
+}
+
+[id$="_main_slider"] .carousel-control-next {
+  right: 40px;
+}
+
+[id$="_main_slider"] .carousel-control-prev:hover,
+[id$="_main_slider"] .carousel-control-next:hover {
+  background-color: #f26522;
+  color: #fff;
+}
+
+
+/* Zoom In #2 */
+.hover02 figure img {
+	width: 300px;
+	height: auto;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.hover02 figure:hover img {
+	width: 350px;
+}
